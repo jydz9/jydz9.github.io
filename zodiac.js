@@ -21,22 +21,28 @@ document.addEventListener('keydown', event => {
 function find(){
     console.log('sdf');
     let getRelationshipYear = document.querySelector("#relation").value;
-    if(getRelationshipYear != "" && getRelationshipYear > 1900){
+    if(getRelationshipYear > 1900){
         id = ((getRelationshipYear - 4) % 12);
+        console.log(id);
         testRelationship(id);
-    }   
+    }
+    else{
+        testRelationship(getRelationshipYear);
+    }
 }
 
 
 function displayInformation(id){
     document.querySelector("#fullContent").style.display = "block";
+    document.querySelector("#relationInfo").style.display = "none";
     let animal = document.querySelector("#getAnimal");
     let personality = document.querySelector("#getPersonality");
     let description = document.querySelector("#getDescription");
     let comp = document.querySelector("#compatibleInfo");
     let notComp = document.querySelector("#notCompatibleInfo");
 
-    fetch("./zodiac.json")
+    // fetch("./zodiac.json")
+    fetch("https://jydz9.github.io/zodiac.json")
     .then(function(response){
         return response.json();
     })
@@ -79,13 +85,18 @@ function testRelationship(id){
         document.querySelector("#relationInfo").style.display = "block";
         let result = (getComp.includes(partnerZodiac));
         let nonComp = (getNotComp.includes(partnerZodiac));
-        if(result == true){
-            showResult.innerHTML = "You have found your soulmate";
-            console.log("what");
-        }else if(nonComp == true){
-            showResult.innerHTML = "You have meet your natural enemy";
-        }else{
-            showResult.innerHTML = "You match neither of the best or least compatible zodiacs";
+
+        if(id == ''){
+            showResult.innerHTML = "Your list of compatibility";
+        }
+        else{
+            if(result == true){
+                showResult.innerHTML = "You have found your soulmate";
+            }else if(nonComp == true){
+                showResult.innerHTML = "You have meet your natural enemy";
+            }else{
+                showResult.innerHTML = "They neither match your best or least compatible zodiacs";
+            }
         }
     });
     

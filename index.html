@@ -19,6 +19,13 @@
         <input type = "text" id = "year" placeholder="year" maxlength="4">
     </div>
 
+    <div id = "leftImgDiv">
+        <img src = "banner.png" alt = "left side" id = "leftimg">
+    </div>
+    <div id = "rightImgDiv">
+        <img src = "banner.png" alt = "left side" id = "rightimg">
+    </div>
+
     <div id = "fullContent">
         <div class = "displayInfo">
             <div id = "animal">
@@ -43,7 +50,9 @@
         </div>
 
         <div>
-            <h3>Test Your Relationship/Find</h3>
+            <h3>Dare to test your Relationship</h3>
+            <h4>Enter their date of birth</h4>
+
             <div class = "userInput">
                 <input type = "text" id = "relation" placeholder="year" maxlength="4">
                 <br><br><button type="button" onclick = "find()">Test/Find</button>
@@ -53,7 +62,11 @@
                 <button type="button" onclick = "noR()">No</button>
             </div> -->
             <div id = "relationInfo">
-                
+
+                <div id = "testRelation">
+                    <p id = "displayResult"></p>
+                </div>
+
                 <div id = "compatible">
                     <span>Most Compatible:</span>
                     <span id = "compatibleInfo"></span>
@@ -64,17 +77,16 @@
                     <span id = "notCompatibleInfo"></span>
                 </div>
 
-                <div id = "testRelation">
-                    <p id = "displayResult"></p>
-                </div>
             </div>
         </div>
 
     </div>
     
 
-    <footer>
-        <p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/rat.htm">Source</a></p>
-    </footer>
+    <div id = "footerWrap">
+        <footer>
+            <p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/rat.htm">Source</a></p>
+        </footer>
+    </div>
 </body>
 </html>
