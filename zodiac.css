@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: rgb(176, 90, 90);
+}
+h3{
+    text-align: center;
+    margin-top: 30px;
+}
+#header{
+    background-color: lightblue;
+}
+
+.userInput{
+    text-align: center;
+}
+
+#year{
+    width: 70px;
+    height: 40px;
+    font-size: 30px;
+}
+
+#relation{
+    width: 70px;
+    height: 40px;
+    font-size: 30px;
+}
+input[type=text]:focus{
+    outline: none;
+    box-shadow: -5px 5px 5px lightcoral;
+}
+input{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(105, 2, 79);
+}
+span{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(105, 2, 79);
+}
+
+#getAnimal, #getPersonality, #getDescription{
+    color: blueviolet;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+#fullContent{
+    display: none;
+}
+
+.displayInfo{
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 600px;
+    padding: 10px;
+    box-shadow: -5px 5px 5px 1px lightcoral;
+}
+
+#compatible{
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 600px;
+    padding: 10px;
+    border: 5px solid green;
+}
+
+#notCompatible{
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 600px;
+    padding: 10px;
+    border: 5px solid red;
+}
+
+#response{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 3px;
+    border-radius: 5px;
+}
+#relationInfo{
+    text-align: center;
+    display: none;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Zodiac</title>
+    <link rel="stylesheet" href="zodiac.css">
+    <script src = "zodiac.js"></script>
+    
+</head>
+<body>
+    <div id = "header">
+        <h1>Find Your Zodiac</h1>
+    </div>
+
+    <div class = "userInput">
+        <p>Enter your date of birth</p>
+        <input type = "text" id = "year" placeholder="year" maxlength="4">
+    </div>
+
+    <div id = "fullContent">
+        <div class = "displayInfo">
+            <div id = "animal">
+                <span>Your Animal:</span>
+                <span id = "getAnimal"></span>
+            </div>
+        </div>
+
+
+        <div class = "displayInfo">
+            <div id = "personality">
+                <br><span>Personality:</span>
+                <span id = "getPersonality"></span>
+            </div>
+        </div>
+        
+        <div class = "displayInfo">
+            <div id = "description">
+                <br><span>Description:</span>
+                <span id = "getDescription"></span>
+            </div>
+        </div>
+
+        <div>
+            <h3>Test Your Relationship/Find</h3>
+            <div class = "userInput">
+                <input type = "text" id = "relation" placeholder="year" maxlength="4">
+                <br><br><button type="button" onclick = "find()">Test/Find</button>
+            </div>
+            <!-- <div id = "response">
+                <button type="button" onclick = "yesR()">Yes</button>
+                <button type="button" onclick = "noR()">No</button>
+            </div> -->
+            <div id = "relationInfo">
+                
+                <div id = "compatible">
+                    <span>Most Compatible:</span>
+                    <span id = "compatibleInfo"></span>
+                </div>
+
+                <div id = "notCompatible">
+                    <span>Least Compaible:</span>
+                    <span id = "notCompatibleInfo"></span>
+                </div>
+
+                <div id = "testRelation">
+                    <p id = "displayResult"></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <footer>
+        <p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/rat.htm">Source</a></p>
+    </footer>
+</body>
+</html>

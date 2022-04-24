@@ -1,0 +1,98 @@
+[
+    {
+        "id" : 0,
+        "animal" : "Rat",
+        "personality" : "quick-witted, resourceful, versatile, kind",
+        "description" : "Due to a lack of courage, as well as good command skills, they are not capable of being leaders. Opportunistic and picky as male Rats are, they do not have broad minds but take a narrow view of things.",
+        "mostCompatible" : "Rat, Ox, Dragon, Monkey",
+        "leastCompatible" : "Rabbit, Horse, Rooster"
+    },
+    {
+        "id" : 1,
+        "animal" : "Ox",
+        "personality" : "diligent, dependable, strong, determined",
+        "description" : "Having great patience and a desire to make progress, Oxes can achieve their goals by consistent effort. They are not much influenced by others or the environment, but persist in doing things according to their ideas and capabilities.",
+        "mostCompatible" : "Ox, Snake, Rooster",
+        "leastCompatible" : "Tiger, Horse, Goat, Monkey"
+    },
+    {
+        "id" : 2,
+        "animal" : "Tiger",
+        "personality" : "confident, brave, magnetic",
+        "description" : "The Tiger is known as the king of all beasts in China. The zodiac sign Tiger is a symbol of strength, exorcising evils, and braveness. Many Chinese kids wear hats or shoes with a tiger image for good luck.",
+        "mostCompatible" : "Horse, Dog, Pig",
+        "leastCompatible" : "Ox, Snake, Goat, Monkey"
+    },
+    {
+        "id" : 3,
+        "animal" : "Rabbit",
+        "personality" : "quiet, elegant, kind, responsible",
+        "description" : "Rabbits are predicted to be gentle, quiet, elegant, and alert as well as quick, skillful, kind, patient, and very responsible, sometimes reluctant to reveal their minds to others and having a tendency to escape reality, but always faithful to those around them.",
+        "mostCompatible" : "Goat, Dog, Pig",
+        "leastCompatible" : "Rat,  Rooster"
+    },
+    {
+        "id" : 4,
+        "animal" : "Dragon",
+        "personality" : "confident, intelligent, enthusiastic",
+        "description" : "Gifted with innate courage, tenacity, and intelligence, Dragons are enthusiastic and confident. They are not afraid of challenges, and willing to take risks.",
+        "mostCompatible" : "Rat, Monkey, Roooster",
+        "leastCompatible" : "Dog"
+    },
+    {
+        "id" : 5,
+        "animal" : "Snake",
+        "personality" : "enigmatic, intelligent, wise",
+        "description" : "Snakes tend to act according to their own judgments while remaining private and reticent. They are determined to accomplish their goals and hate to fail.",
+        "mostCompatible" : "Ox, Roooster",
+        "leastCompatible" : "Tiger, Horse, Pig"
+    },
+    {
+        "id" : 6,
+        "animal" : "Horse",
+        "personality" : "animated, active, energetic",
+        "description" : "With a deft sense of humor, Horses are masters of repartee. They love to take center stage and delight audiences everywhere.",
+        "mostCompatible" : "Tiger, Goat, Dog",
+        "leastCompatible" : "Rat, Ox, Snake"
+    },
+    {
+        "id" : 7,
+        "animal" : "Goat",
+        "personality" : "calm, gentle, sympathetic",
+        "description" : "They have very delicate thoughts, strong creativity, and perseverance, and acquire professional skills well. Although they look gentle on the surface, they are tough on the inside, always insisting on their own opinions in their minds. They have strong inner resilience and excellent defensive instincts.",
+        "mostCompatible" : "Rabbit, Horse, Goat, Pig",
+        "leastCompatible" : "Ox, Tiger, Dog"
+    },
+    {
+        "id" : 8,
+        "animal" : "Monkey",
+        "personality" : "sharp, smart, curious",
+        "description" : "Monkeys are fast learners and crafty opportunists. They have many interests and need partners who are capable of stimulating them. While some like the eccentric nature of Monkeys, others don't trust their sly, restless, and inquisitive nature.",
+        "mostCompatible" : "Rat, Dragon, Dog",
+        "leastCompatible" : "Ox, Tiger"
+    },
+    {
+        "id" : 9,
+        "animal" : "Rooster",
+        "personality" : "observant, hardworking, courageous",
+        "description" : "Roosters are happiest when they are surrounded by others, whether at a party or just a social gathering. They enjoy the spotlight and will exhibit their charm on any occasion.",
+        "mostCompatible" : "Ox, Dragon, Snake",
+        "leastCompatible" : "Rat, Rabbit"
+    },
+    {
+        "id" : 10,
+        "animal" : "Dog",
+        "personality" : "lovely, honest, prudent",
+        "description" : "As Dogs are not good at communication, it is difficult for them to convey their thoughts to others. Therefore, Dogs tend to leave others with the impression that they have a stubborn personality.",
+        "mostCompatible" : "Tiger, Rabbit, Horse, Monkey",
+        "leastCompatible" : "Dragon, Goat"
+    },
+    {
+        "id" : 11,
+        "animal" : "Pig",
+        "personality" : "compassionate, generous, diligent",
+        "description" : "Generally speaking, Pigs are relatively calm when facing trouble. No matter how difficult the problems are Pigs encounter, they can handle things properly and carefully. They have a great sense of responsibility to finish what they are engaged in.",
+        "mostCompatible" : "Tiger, Rabbit, Goat",
+        "leastCompatible" : "Snake"
+    }
+]
