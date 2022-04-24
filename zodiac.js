@@ -78,6 +78,7 @@ function testRelationship(id){
         document.querySelector("input").value = "";
         document.querySelector("#relationInfo").style.display = "block";
         let result = (getComp.includes(partnerZodiac));
+        let nonComp = (getNotComp.includes(partnerZodiac));
         if(result == true){
             showResult.innerHTML = "You have found your soulmate";
             console.log("what");
