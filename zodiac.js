@@ -81,8 +81,10 @@ function testRelationship(id){
         if(result == true){
             showResult.innerHTML = "You have found your soulmate";
             console.log("what");
-        }else{
+        }else if(nonComp == true){
             showResult.innerHTML = "You have meet your natural enemy";
+        }else{
+            showResult.innerHTML = "You match neither of the best or least compatible zodiacs";
         }
     });
     
